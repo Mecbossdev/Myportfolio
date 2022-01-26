@@ -1,0 +1,63 @@
+:root {
+  --primary-color: #1bda34aa;
+  --white-color: #ffffff;
+  --light-gray-color: #EEEEEE;
+  --gap: 3rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2rem;
+  color: var(--primary-color);
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-bg {
+  background-image: url('../img/scattered-forcefields.svg');
+  background-size: cover;
+  background-position: center,center;
+  color: var(--white-color)
+}
+
+.white-bg {
+  background-color: var(--white-color);
+}
+
+.main-content {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: var(--gap);
+}
+
+.section {
+  min-height: 100vh;
+}
+.menu {
+  background: var(--white-color);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  border-bottom: 0.1rem solid var(--light-gray-color)
+}
