@@ -1,5 +1,5 @@
 .main-bg {
-  background-image: url('../img/endless-constellation\ \(1\).svg');
+  background-image: url('../img/');
   background-size: cover;
   background-position: center,center;
   color: var(--white-color)
@@ -7,7 +7,7 @@
 
 .white-bg {
   background-color: var(--white-color);
-  background-image: url('../img/84b46e71277003.5bbf883ce644a.jpg');
+  background-image: url('../img/');
 }
 
 .main-content {
