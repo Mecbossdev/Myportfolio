@@ -1,11 +1,13 @@
 .menu {
-  background: var(--Dark-color);
+  padding: 30px 0;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   width: 100%;
-  border-bottom: 0.1rem solid var(--light-gray-color)
+  z-index: 999;
+  transition: all 0.3s ease;
+  
 }
 
 .menu-content {
@@ -18,11 +20,11 @@
 
 .menu h1 {
   font-size: 2.3rem;
-  color: var(--primary-color)
+  color: var(--Dark-color);
 }
 
 .menu h1 a {
-  color: inherit
+  color: inherit;
 }
 
 .menu ul {
@@ -34,7 +36,7 @@
   display: block;
   padding: 2rem;
   font-size: 1.8rem;
-  color: var(--primary-color);
+  color: var(--Dark-color);
   position: relative;
 }
 
