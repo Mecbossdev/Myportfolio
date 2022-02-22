@@ -6,6 +6,12 @@
   min-height: 100vh;
 }
 
+.intro-text, .intro-img {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
 
 
 
