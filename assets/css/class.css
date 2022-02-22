@@ -6,14 +6,14 @@
 }
 
 .main-bg {
-  background-image: url('');
+  background: var(--main-color);
   background-size: cover;
   background-position: center,center;
   color: var(--white-color)
 }
 
 .white-bg {
-  background-color: var(--white-color);
+  background: var(--white-color);
   background-image: url('../img/');
 }
 
