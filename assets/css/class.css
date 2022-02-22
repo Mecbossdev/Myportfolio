@@ -1,5 +1,12 @@
-.main-bg {
+.home-bg {
   background-image: url('../img/perfil.svg');
+  background-size: cover;
+  background-position: center,center;
+  color: var(--white-color)
+}
+
+.main-bg {
+  background-image: url('');
   background-size: cover;
   background-position: center,center;
   color: var(--white-color)
